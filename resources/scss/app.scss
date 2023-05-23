@@ -1,0 +1,9 @@
+@use "./partials/general_selector" as *;
+@use "./partials/header.scss" as *;
+// @use "./partials/main.scss" as *;
+// @use "./partials/footer.scss" as *;
+// // @use "node_modules/bootstrap/scss/offcanvas.scss" as *;
+// @use "node_modules/bootstrap/scss/bootstrap-grid.scss" as *;
+// @use "node_modules/bootstrap/scss/bootstrap-utilities.scss" as *;
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500;600;700&family=Roboto:wght@300;400;500;700&family=Schibsted+Grotesk:wght@400;500;600&display=swap');
