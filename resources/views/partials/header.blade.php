@@ -17,6 +17,11 @@
 
             </div>
         </nav>
+        <div class="search_block">
+            <input type="searc" placeholder="Search" class="text-end">
+            <button class="border-0 bg-trasparent"><i class="fa-solid fa-magnifying-glass ms-2"></i></button>
+
+        </div>
     </div>
 
 </header>

@@ -9,7 +9,7 @@
     a {
         display: inline-block;
         position: relative;
-        color: black;
+        color: $clr_total_dark;
         transition-duration: 0.4s;
     }
 
@@ -17,6 +17,16 @@
         text-decoration: underline !important;
 
     }
+
+    .search_block {
+        border-bottom: 2px solid $clr_total_dark;
+
+        input {
+            border: none;
+            outline: none;
+        }
+    }
+
 
     div.active {
         border-bottom: 4px solid $clr_extra_options;
