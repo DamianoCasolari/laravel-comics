@@ -6,21 +6,17 @@
 
         <nav>
 
-            <div class="nav_option fw-bold d-flex">
+            <div class="nav_option fw-bold d-flex ">
                 @foreach (config('navbar') as $value)
                     <div class=" mx-3">
                         <a href="{{ $value }}"> {{ strtoupper($value) }}</a>
                     </div>
                 @endforeach
-
-
-
             </div>
         </nav>
         <div class="search_block">
-            <input type="searc" placeholder="Search" class="text-end">
-            <button class="border-0 bg-trasparent"><i class="fa-solid fa-magnifying-glass ms-2"></i></button>
-
+            <input type="search" placeholder="Search" class="text-end">
+            <button class="border-0 bg-transparent"><i class="fa-solid fa-magnifying-glass ms-2"></i></button>
         </div>
     </div>
 
