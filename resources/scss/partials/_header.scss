@@ -20,6 +20,10 @@
 
     .search_block {
         border-bottom: 2px solid $clr_total_dark;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         input {
             border: none;

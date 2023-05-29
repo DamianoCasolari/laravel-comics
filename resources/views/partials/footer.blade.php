@@ -49,7 +49,9 @@
                         @foreach (config('footerInfo') as $icon)
                             <div class="text-dark">
                                 <a class="text-dark mx-2" href="#">
-                                    <img src="{{ 'resources/img/' . $icon['icon'] }}" alt="{{ $icon['name'] }}">
+                                    <img src="{{ Vite::asset('resources/img/' . $icon['icon']) }}"
+                                        alt="{{ $icon['name'] }}">
+                                    {{-- <img src="{{ Vite::asset('../../resources/img/' . $icon['icon']) }}" alt=""> --}}
                                 </a>
 
                             </div>
